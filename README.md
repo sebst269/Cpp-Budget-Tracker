@@ -15,28 +15,6 @@ Log transactions with a date, category, and amount, then view a summary of all e
 
 ---
 
-## Example Usage
-
-```
-1. Add Transaction
-2. View Transactions
-3. Exit
-
-Choose an option: 1
-Enter date (YYYY-MM-DD): 2025-06-23
-Enter category: groceries
-Enter amount (positive for income, negative for expense): -45.90
-```
-
-```
---- Transaction History ---
-2025-06-23 | groceries | $-45.90
----------------------------
-Total: $-45.90
-```
-
----
-
 ## Getting Started
 
 ### Compile
@@ -49,15 +27,3 @@ g++ main.cpp -o budget_tracker
 ```
 ./budget_tracker
 ```
-
----
-
-## File Structure
-
-```
-cpp-budget-tracker/
-├── main.cpp            # Core program logic
-├── transactions.csv    # Stores your logged data
-└── README.md           # Project overview and usage
-``
-
